@@ -85,6 +85,7 @@ function Fetchdata(props) {
       setActivproduct('block')
 
     })
+    console.log('hii')
 
   }
   return (
