@@ -52,7 +52,7 @@ function Fetchdata(props) {
    
 
 
-    fetch('https://newsapi.org/v2/everything?q=india&from=2024-2-21&sortBy=publishedAt&apiKey=245d8c1448934875b7bf5158788d8cc7')
+    fetch('https://newsapi.org/v2/everything?q=india&from=2025-02-20&sortBy=publishedAt&apiKey=245d8c1448934875b7bf5158788d8cc7')
       .then((newsresult) => {
 
         return newsresult.json();
